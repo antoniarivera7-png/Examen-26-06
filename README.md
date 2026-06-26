@@ -17,12 +17,21 @@ La experiencia propone que el usuario explore cómo pequeñas modificaciones en 
 El proyecto está compuesto por tres pantallas o estados principales:
 
 - Pantalla de inicio.
+  ![Pantalla inicio](imagenex/inicio.png)
 - Pantalla interactiva.
+- ![Pantalla interactiva](imagenex/base.png)
 - Pantalla final.
+  ![Pantalla final](imagenex/final.png)
 
 Durante la experiencia se dibuja una grilla de círculos distribuidos uniformemente sobre un fondo degradado. Cada círculo modifica su color según la distancia entre el cursor y su posición.
 
 Cuando el usuario mantiene presionadas las teclas **R**, **G** o **B**, cambia completamente la paleta cromática de la composición y se reproduce un sonido mecánico.
+
+![R](imagenex/R.jpg)
+
+![G](imagenex/G.jpg)
+
+![B](imagenex/B.jpg)
 
 Además:
 
@@ -43,6 +52,7 @@ El usuario deja de ser un observador pasivo para transformarse en parte del sist
 ---
 
 # Referentes
+![referente](imagenex/referente.png)
 
 ## Movimiento artístico
 
@@ -80,89 +90,7 @@ Aunque la composición no replica directamente la obra original, toma como refer
 ---
 
 # Sistema Computacional
-
-## Inputs
-
-El proyecto utiliza los siguientes datos de entrada:
-
-- Posición del mouse (X,Y)
-- Click del mouse
-- Tecla ENTER
-- Teclas R
-- Teclas G
-- Teclas B
-
----
-
-## Procesos
-
-El programa realiza continuamente los siguientes procesos:
-
-- Calcula la distancia entre cada círculo y el mouse utilizando `dist()`.
-- Convierte esa distancia en valores de color mediante `map()`.
-- Mezcla colores usando `lerpColor()`.
-- Genera una grilla mediante dos ciclos `for`.
-- Cambia la paleta de colores según la tecla presionada.
-- Actualiza constantemente la pantalla mediante `draw()`.
-- Controla el cambio de estados utilizando la variable `pantalla`.
-
----
-
-## Estados
-
-El sistema posee tres estados:
-
-### Inicio
-
-Muestra una portada con una grilla, título y mensaje de bienvenida.
-
-↓
-
-### Experiencia
-
-Presenta la composición interactiva donde el usuario modifica el color y el tamaño de los círculos.
-
-↓
-
-### Final
-
-Muestra una animación de cierre donde la grilla desaparece progresivamente y aparece un mensaje final.
-
----
-
-## Eventos
-
-Los principales eventos del programa son:
-
-### ENTER
-
-- Inicio → Experiencia
-- Experiencia → Final
-- Final → Inicio
-
-### Mouse
-
-- modifica el color de los círculos según la cercanía
-
-### Mouse Presionado
-
-- aumenta el tamaño de los círculos
-
-### Teclas R G B
-
-- cambian la paleta cromática
-- reproducen sonido
-
-### Soltar tecla
-
-- vuelve a la paleta base
-- detiene el sonido
-
----
-
-## Outputs
-
-El sistema responde generando:
+![diagrama de flujo](imagenex/Sintítulo.jpg)
 
 ### Visuales
 
@@ -197,13 +125,6 @@ Finalmente, al presionar nuevamente ENTER se accede a una pantalla de cierre don
 
 # Recursos Multimedia
 
-## Tipografías
-
-- Tipo01.otf
-- Tipo2.otf
-
-Utilizadas para diferenciar el título y los textos secundarios.
-
 ---
 
 ## Sonidos
@@ -222,17 +143,6 @@ Reproducido al finalizar la experiencia.
 
 ---
 
-# Registro del Proceso
-
-## Referentes
-![referentes](imagenex/referente.png)
-
-- Victor Vasarely
-- Op Art
-
-## Bocetos
-
-Durante el proceso se exploraron distintas configuraciones de grillas, colores y composiciones antes de llegar al resultado final.
 
 ## Iteraciones
 
@@ -245,7 +155,17 @@ Se realizaron múltiples modificaciones relacionadas con:
 - mejora de la portada
 - diseño de la pantalla final
 
-## Capturas
+## Código Final
+![variables](imagenex/let.png)
+![multimedia](imagenex/preload.png)
+![setup](imagenex/setup.png)
+![draw()](imagenex/draw.png)
+![funcionpropia](imagenex/cambiarpaleta.png)
+![inicio](imagenex/dibujarinicio.png)
+![experiencia](imagenex/dibujarexperiencia.png)
+![final](imagenex/dibujarfinal.png)
+![teclas](imagenex/Keypressed.png)
+![teclas](imagenex/keyreleased.png)
 
 *(Aquí pueden agregarse imágenes del proceso de desarrollo.)*
 
