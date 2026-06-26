@@ -90,7 +90,7 @@ Aunque la composición no replica directamente la obra original, toma como refer
 ---
 
 # Sistema Computacional
-![diagrama de flujo](imagenex/Sintítulo.jpg)
+![diagrama de flujo](imagenex/Sin título.jpg)
 
 ### Visuales
 
