@@ -225,6 +225,7 @@ Reproducido al finalizar la experiencia.
 # Registro del Proceso
 
 ## Referentes
+![referentes](imagenex/referente.png)
 
 - Victor Vasarely
 - Op Art
@@ -260,19 +261,5 @@ También fue necesario aprender a integrar distintos recursos multimedia como ti
 
 Finalmente, el proyecto permitió entender cómo herramientas básicas de programación pueden utilizarse para construir experiencias visuales inspiradas en referentes históricos del diseño y el arte.
 
----
 
-# Presentación
 
-Durante la exposición se abordarán los siguientes puntos:
-
-- Concepto del proyecto
-- Referentes utilizados
-- Inspiración en Victor Vasarely y el Op Art
-- Funcionamiento general
-- Estados del sistema
-- Eventos e interacción
-- Inputs y Outputs
-- Uso de recursos multimedia
-- Estructura general del programa
-- Reflexión final
