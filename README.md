@@ -90,7 +90,7 @@ Aunque la composición no replica directamente la obra original, toma como refer
 ---
 
 # Sistema Computacional
-![diagrama de flujo](imagenex/Sin título.jpg)
+![diagrama de flujo](imagenex/diagrama.jpg)
 
 ### Visuales
 
@@ -157,23 +157,28 @@ Se realizaron múltiples modificaciones relacionadas con:
 
 ## Código Final
 ![variables](imagenex/let.png)
-![multimedia](imagenex/preload.png)
-![setup](imagenex/setup.png)
-![draw()](imagenex/draw.png)
-![funcionpropia](imagenex/cambiarpaleta.png)
-![inicio](imagenex/dibujarinicio.png)
-![experiencia](imagenex/dibujarexperiencia.png)
-![final](imagenex/dibujarfinal.png)
-![teclas](imagenex/Keypressed.png)
-![teclas](imagenex/keyreleased.png)
 
-*(Aquí pueden agregarse imágenes del proceso de desarrollo.)*
+![multimedia](imagenex/preload.png)
+
+![setup](imagenex/setup.png)
+
+![draw()](imagenex/draw.png)
+
+![funcionpropia](imagenex/cambiarpaleta.png)
+
+![inicio](imagenex/dibujarinicio.png)
+
+![experiencia](imagenex/dibujarexperiencia.png)
+
+![final](imagenex/dibujarfinal.png)
+
+![teclas](imagenex/Keypressed.png)
+
+![teclas](imagenex/keyreleased.png)
 
 ---
 
 # Reflexión Final
-
-Este proyecto permitió comprender cómo estructuras geométricas simples pueden generar experiencias visuales complejas cuando se combinan con interacción y programación.
 
 Uno de los principales desafíos fue organizar el código mediante estados y lograr que las transiciones funcionaran correctamente sin afectar la experiencia del usuario.
 
